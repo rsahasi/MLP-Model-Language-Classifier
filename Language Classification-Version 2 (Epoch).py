@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -156,22 +150,3 @@ plt.title('MLP Accuracy vs. Epoch')
 plt.show()
 
 print(f"Final Accuracy: {accuracy_values[-1]:.4f}")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
